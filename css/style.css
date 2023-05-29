@@ -328,13 +328,13 @@ body {
     position: absolute;
     align-items: center;
     margin-top: 200px;
-    margin-right: 100px;
+    margin-right: 50px;
     top: 0;
     right: 0;
     width: 30%;
     font-family: 'FancyFont', sans-serif;
     background-color: transparent;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.5;
     color: #fff;
   }
@@ -342,47 +342,44 @@ body {
 
   @media screen and (max-width: 768px) {
     .container {
-      flex-direction: column;
-      height: 50%;
       width: 70%;
-      margin: 10px 90px 10px;
+      margin: 10px auto;
     }
-
+  
     .drag-text {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      transform: translateX(-50%);
-      font-size: 32px;
-      font-weight: bold;
-      color: #6ab2ff; 
-      white-space: nowrap; 
-      overflow: hidden; 
+      font-size: 20px;
     }
-
+  
     .head {
-      width: 90%;
-      margin: 10px;
-      margin-top: 100px;
+      width: 100%;
+      margin: 20px 0;
     }
-
+  
     .box {
       width: 80%;
-      margin: 10px;
+      margin: 10px auto;
     }
-
+  
+    .box img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      width: auto;
+      height: auto;
+      min-height: 150px;
+      min-width: 80px;
+      box-shadow: 0 0 10px #fff;
+    }
+  
     .text-box {
       position: relative;
-      align-items: center;
-      width: 50%;
-      margin: 10px 150px 10px;
-      font-size: 25px
+      width: 80%;
+      margin: 20px auto;
+      font-size: 20px;
+      text-align: center;
     }
-
   }
-
+  
 
   
 
@@ -539,6 +536,20 @@ body {
   .logos img:last-child {
     margin-right: 0;
   }
+
+  @media (max-width: 768px) {
+    .logos {
+      width: 30%;
+      margin: 0 auto; 
+    }
+  
+    .logos img {
+      width: 100%; 
+      margin-right: 0;
+      margin: 20px;
+    }
+  }
+  
   
   
 
@@ -633,15 +644,27 @@ body {
     margin-bottom: 10px;
   }
   
-  .text-overlay p {
-    margin: 0;
-  }
-  
   .text-overlay a {
     color: #fff;
     text-decoration: underline;
   }
   
+  @media (max-width: 768px) {
+    .scroll-box {
+      width: 300px; 
+      height: 200px;
+      margin: 30px;
+    }
+  
+    .text-overlay h3 {
+      font-size: 15px;
+    }
+
+    .scroll-box img {
+      width: auto;
+      height: 100%;
+    }
+  }
 
 
 
