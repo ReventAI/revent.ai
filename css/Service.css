@@ -237,9 +237,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .main-text {
-    width: 50%;
-    padding: 30px;
-    margin: 50px auto;
+    width: 30%;
   }
 
   .main-text h1 {
