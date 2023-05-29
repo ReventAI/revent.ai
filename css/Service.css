@@ -203,9 +203,8 @@ header {
 
 @media only screen and (max-width: 768px) {
 .style h1 {
-  font-size: 40px;
+  font-size: 25px;
 }
-
 }
 
 
@@ -246,25 +245,16 @@ header {
   justify-content: center;
   align-items: center;
   width: 80%;
-  max-width: 800px; /* Added max-width for responsiveness */
-  margin: 0 auto; /* Added auto margin to center align horizontally */
+  max-width: 800px; 
+  margin: 0 auto; 
   height: 400px;
   border-radius: 20px;
   background-color: #fff;
-  margin-top: 50px; /* Adjusted margin-top value */
-  margin-bottom: 50px; /* Adjusted margin-bottom value */
+  margin-top: 50px; 
+  margin-bottom: 50px;
   position: relative;
   vertical-align: top;
   box-shadow: 0px 8px 16px #007AFF;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    height: auto;
-    margin-top: 20px; /* Adjusted margin-top value */
-    margin-bottom: 20px; /* Adjusted margin-bottom value */
-  }
 }
 
 
@@ -368,7 +358,7 @@ header {
     margin-top: 30px;
     margin-bottom: 5px;
     transform: translateX(-50%);
-    font-size: 40px;
+    font-size: 18px;
     font-weight: bold;
     color: #6ab2ff; 
     white-space: nowrap; 
