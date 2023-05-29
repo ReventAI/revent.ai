@@ -221,7 +221,7 @@ header {
   text-align: center;
   padding: 50px;
   width: 80%; /* Added width to match container */
-  max-width: 1200px; /* Added max-width for responsiveness */
+  max-width: 800px; /* Added max-width for responsiveness */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
