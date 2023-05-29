@@ -342,13 +342,13 @@ body {
 @media screen and (max-width: 768px) {
     .container {
       flex-direction: column;
-      width: 50%;
+      width: 70%;
       height: 100%;
-      margin: 100px auto;
+      margin: 10px auto;
     }
   
     .drag-text {
-      font-size: 20px;
+      font-size: 18px;
     }
   
     .head {
@@ -368,7 +368,7 @@ body {
     .text-box {
       position: relative;
       width: 80%;
-      margin: 100px auto;
+      margin: 80px auto;
       font-size: 20px;
       text-align: center;
     }
