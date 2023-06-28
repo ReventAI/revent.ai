@@ -39,26 +39,21 @@ window.addEventListener('resize', closeDropdowns);
 
 
 
-const box1 = document.getElementById('box1');
-const box2 = document.getElementById('box2');
+// const box1 = document.getElementById('box1');
+// const box2 = document.getElementById('box2');
 
-box1.addEventListener('dragstart', (event) => {
-  event.dataTransfer.setData('text/plain', 'image1');
-});
+// box1.addEventListener('dragstart', (event) => {
+//   event.dataTransfer.setData('text/plain', 'image1');
+// });
 
-box2.addEventListener('dragover', (event) => {
-  event.preventDefault();
-});
+// box2.addEventListener('dragover', (event) => {
+//   event.preventDefault();
+// });
 
-box2.addEventListener('drop', (event) => {
-  event.preventDefault();
-  const data = event.dataTransfer.getData('text/plain');
-  if (data === 'image1') {
-    box2.innerHTML = '<img src="images/image2.jpg" alt="Image 2">';
-  }
-});
-
-
-
-
-
+// box2.addEventListener('drop', (event) => {
+//   event.preventDefault();
+//   const data = event.dataTransfer.getData('text/plain');
+//   if (data === 'image1') {
+//     box2.innerHTML = '<img src="images/image2.jpg" alt="Image 2">';
+//   }
+// });
